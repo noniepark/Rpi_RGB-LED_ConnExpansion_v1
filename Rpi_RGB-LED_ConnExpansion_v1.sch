@@ -1,0 +1,780 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J1
+U 1 1 5CC73C88
+P 3700 2600
+F 0 "J1" H 3750 3717 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 3750 3626 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x20_P2.54mm_Vertical" H 3700 2600 50  0001 C CNN
+F 3 "~" H 3700 2600 50  0001 C CNN
+	1    3700 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J2
+U 1 1 5CC73DFE
+P 7950 1500
+F 0 "J2" H 8030 1492 50  0000 L CNN
+F 1 "Conn_01x06" H 8030 1401 50  0000 L CNN
+F 2 "GiraffeTech_Terminal:DINKLE_5EHDVC-6P" H 7950 1500 50  0001 C CNN
+F 3 "~" H 7950 1500 50  0001 C CNN
+	1    7950 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0101
+U 1 1 5CC74E44
+P 4450 1600
+F 0 "#PWR0101" H 4450 1450 50  0001 C CNN
+F 1 "VCC" H 4467 1773 50  0000 C CNN
+F 2 "" H 4450 1600 50  0001 C CNN
+F 3 "" H 4450 1600 50  0001 C CNN
+	1    4450 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0102
+U 1 1 5CC74F25
+P 3050 1600
+F 0 "#PWR0102" H 3050 1450 50  0001 C CNN
+F 1 "VCC" H 3067 1773 50  0000 C CNN
+F 2 "" H 3050 1600 50  0001 C CNN
+F 3 "" H 3050 1600 50  0001 C CNN
+	1    3050 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 1600 3050 1700
+Wire Wire Line
+	3050 1800 3500 1800
+Wire Wire Line
+	3050 1700 3500 1700
+Connection ~ 3050 1700
+Wire Wire Line
+	3050 1700 3050 1800
+Wire Wire Line
+	4000 1700 4450 1700
+Wire Wire Line
+	4450 1700 4450 1600
+Wire Wire Line
+	4000 1800 4450 1800
+Wire Wire Line
+	4450 1800 4450 1700
+Connection ~ 4450 1700
+$Comp
+L power:GND #PWR0103
+U 1 1 5CC755F3
+P 3050 3750
+F 0 "#PWR0103" H 3050 3500 50  0001 C CNN
+F 1 "GND" H 3055 3577 50  0000 C CNN
+F 2 "" H 3050 3750 50  0001 C CNN
+F 3 "" H 3050 3750 50  0001 C CNN
+	1    3050 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 1900 3500 1900
+Wire Wire Line
+	3500 2000 3050 2000
+Connection ~ 3050 2000
+Wire Wire Line
+	3050 2000 3050 1900
+Wire Wire Line
+	3050 2100 3500 2100
+Connection ~ 3050 2100
+Wire Wire Line
+	3050 2100 3050 2000
+Wire Wire Line
+	3050 2200 3500 2200
+Connection ~ 3050 2200
+Wire Wire Line
+	3050 2200 3050 2100
+Wire Wire Line
+	3050 2300 3500 2300
+Connection ~ 3050 2300
+Wire Wire Line
+	3050 2300 3050 2200
+Wire Wire Line
+	3050 2400 3500 2400
+Wire Wire Line
+	3050 2400 3050 2300
+Wire Wire Line
+	3500 2500 3050 2500
+Wire Wire Line
+	3500 2600 3050 2600
+Wire Wire Line
+	3500 2700 3050 2700
+Wire Wire Line
+	3500 2800 3050 2800
+Wire Wire Line
+	3500 2900 3050 2900
+Wire Wire Line
+	3500 3000 3050 3000
+Wire Wire Line
+	3500 3100 3050 3100
+Wire Wire Line
+	3500 3200 3050 3200
+Wire Wire Line
+	3500 3300 3050 3300
+Wire Wire Line
+	3500 3400 3050 3400
+Wire Wire Line
+	3500 3500 3050 3500
+Wire Wire Line
+	3500 3600 3050 3600
+Wire Wire Line
+	3050 3750 3050 3600
+Connection ~ 3050 2600
+Connection ~ 3050 2700
+Wire Wire Line
+	3050 2700 3050 2600
+Connection ~ 3050 2800
+Wire Wire Line
+	3050 2800 3050 2700
+Connection ~ 3050 2900
+Wire Wire Line
+	3050 2900 3050 2800
+Connection ~ 3050 3000
+Wire Wire Line
+	3050 3000 3050 2900
+Connection ~ 3050 3100
+Wire Wire Line
+	3050 3100 3050 3000
+Connection ~ 3050 3200
+Wire Wire Line
+	3050 3200 3050 3100
+Connection ~ 3050 3300
+Wire Wire Line
+	3050 3300 3050 3200
+Connection ~ 3050 3400
+Wire Wire Line
+	3050 3400 3050 3300
+Connection ~ 3050 3500
+Wire Wire Line
+	3050 3500 3050 3400
+Connection ~ 3050 3600
+Wire Wire Line
+	3050 3600 3050 3500
+Wire Wire Line
+	3050 2400 3050 2500
+Connection ~ 3050 2400
+Connection ~ 3050 2500
+Wire Wire Line
+	3050 2500 3050 2600
+Text GLabel 4450 1900 2    50   Input ~ 0
+MOSI_0
+Text GLabel 4450 2100 2    50   Input ~ 0
+MOSI_1
+Text GLabel 4450 2300 2    50   Input ~ 0
+MOSI_2
+Text GLabel 4450 2500 2    50   Input ~ 0
+MOSI_3
+Text GLabel 4450 2700 2    50   Input ~ 0
+MOSI_4
+Text GLabel 4450 2900 2    50   Input ~ 0
+MOSI_5
+Text GLabel 4450 3100 2    50   Input ~ 0
+MOSI_6
+Text GLabel 4450 3300 2    50   Input ~ 0
+MOSI_7
+Text GLabel 4450 2000 2    50   Input ~ 0
+SCK_0
+Text GLabel 4450 2200 2    50   Input ~ 0
+SCK_1
+Text GLabel 4450 2400 2    50   Input ~ 0
+SCK_2
+Text GLabel 4450 2600 2    50   Input ~ 0
+SCK_3
+Text GLabel 4450 2800 2    50   Input ~ 0
+SCK_4
+Text GLabel 4450 3000 2    50   Input ~ 0
+SCK_5
+Text GLabel 4450 3200 2    50   Input ~ 0
+SCK_6
+Text GLabel 4450 3400 2    50   Input ~ 0
+SCK_7
+$Comp
+L power:GND #PWR0104
+U 1 1 5CC7731C
+P 4450 3750
+F 0 "#PWR0104" H 4450 3500 50  0001 C CNN
+F 1 "GND" H 4455 3577 50  0000 C CNN
+F 2 "" H 4450 3750 50  0001 C CNN
+F 3 "" H 4450 3750 50  0001 C CNN
+	1    4450 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3500 4450 3500
+Wire Wire Line
+	4450 3500 4450 3600
+Wire Wire Line
+	4000 3600 4450 3600
+Connection ~ 4450 3600
+Wire Wire Line
+	4450 3600 4450 3750
+Wire Wire Line
+	4450 1900 4000 1900
+Wire Wire Line
+	4450 2000 4000 2000
+Wire Wire Line
+	4450 2100 4000 2100
+Wire Wire Line
+	4450 2200 4000 2200
+Wire Wire Line
+	4450 2300 4000 2300
+Wire Wire Line
+	4450 2400 4000 2400
+Wire Wire Line
+	4450 2500 4000 2500
+Wire Wire Line
+	4450 2600 4000 2600
+Wire Wire Line
+	4450 2700 4000 2700
+Wire Wire Line
+	4450 2800 4000 2800
+Wire Wire Line
+	4450 2900 4000 2900
+Wire Wire Line
+	4450 3000 4000 3000
+Wire Wire Line
+	4450 3100 4000 3100
+Wire Wire Line
+	4450 3200 4000 3200
+Wire Wire Line
+	4450 3300 4000 3300
+Wire Wire Line
+	4450 3400 4000 3400
+Text GLabel 7550 1700 0    50   Input ~ 0
+MOSI_0
+Text GLabel 7550 2900 0    50   Input ~ 0
+MOSI_1
+Text GLabel 7550 4100 0    50   Input ~ 0
+MOSI_2
+Text GLabel 7550 5300 0    50   Input ~ 0
+MOSI_3
+Text GLabel 9500 1700 0    50   Input ~ 0
+MOSI_4
+Text GLabel 9500 2900 0    50   Input ~ 0
+MOSI_5
+Text GLabel 9500 4100 0    50   Input ~ 0
+MOSI_6
+Text GLabel 9500 5300 0    50   Input ~ 0
+MOSI_7
+Text GLabel 7550 1800 0    50   Input ~ 0
+SCK_0
+Text GLabel 7550 3000 0    50   Input ~ 0
+SCK_1
+Text GLabel 7550 4200 0    50   Input ~ 0
+SCK_2
+Text GLabel 7550 5400 0    50   Input ~ 0
+SCK_3
+Text GLabel 9500 1800 0    50   Input ~ 0
+SCK_4
+Text GLabel 9500 3000 0    50   Input ~ 0
+SCK_5
+Text GLabel 9500 4200 0    50   Input ~ 0
+SCK_6
+Text GLabel 9500 5400 0    50   Input ~ 0
+SCK_7
+$Comp
+L power:GND #PWR0105
+U 1 1 5CC7B0F3
+P 7550 1600
+F 0 "#PWR0105" H 7550 1350 50  0001 C CNN
+F 1 "GND" V 7555 1472 50  0000 R CNN
+F 2 "" H 7550 1600 50  0001 C CNN
+F 3 "" H 7550 1600 50  0001 C CNN
+	1    7550 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7550 1600 7650 1600
+Wire Wire Line
+	7750 1500 7650 1500
+Wire Wire Line
+	7650 1500 7650 1600
+Connection ~ 7650 1600
+Wire Wire Line
+	7650 1600 7750 1600
+$Comp
+L power:VCC #PWR0106
+U 1 1 5CC7CF11
+P 7550 1400
+F 0 "#PWR0106" H 7550 1250 50  0001 C CNN
+F 1 "VCC" V 7568 1527 50  0000 L CNN
+F 2 "" H 7550 1400 50  0001 C CNN
+F 3 "" H 7550 1400 50  0001 C CNN
+	1    7550 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 1400 7650 1400
+Wire Wire Line
+	7750 1300 7650 1300
+Wire Wire Line
+	7650 1300 7650 1400
+Connection ~ 7650 1400
+Wire Wire Line
+	7650 1400 7750 1400
+$Comp
+L Connector_Generic:Conn_01x06 J3
+U 1 1 5CC839F6
+P 7950 2700
+F 0 "J3" H 8030 2692 50  0000 L CNN
+F 1 "Conn_01x06" H 8030 2601 50  0000 L CNN
+F 2 "GiraffeTech_Terminal:DINKLE_5EHDVC-6P" H 7950 2700 50  0001 C CNN
+F 3 "~" H 7950 2700 50  0001 C CNN
+	1    7950 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5CC839FC
+P 7550 2800
+F 0 "#PWR0107" H 7550 2550 50  0001 C CNN
+F 1 "GND" V 7555 2672 50  0000 R CNN
+F 2 "" H 7550 2800 50  0001 C CNN
+F 3 "" H 7550 2800 50  0001 C CNN
+	1    7550 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7550 2800 7650 2800
+Wire Wire Line
+	7750 2700 7650 2700
+Wire Wire Line
+	7650 2700 7650 2800
+Connection ~ 7650 2800
+Wire Wire Line
+	7650 2800 7750 2800
+$Comp
+L power:VCC #PWR0108
+U 1 1 5CC83A07
+P 7550 2600
+F 0 "#PWR0108" H 7550 2450 50  0001 C CNN
+F 1 "VCC" V 7568 2727 50  0000 L CNN
+F 2 "" H 7550 2600 50  0001 C CNN
+F 3 "" H 7550 2600 50  0001 C CNN
+	1    7550 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 2600 7650 2600
+Wire Wire Line
+	7750 2500 7650 2500
+Wire Wire Line
+	7650 2500 7650 2600
+Connection ~ 7650 2600
+Wire Wire Line
+	7650 2600 7750 2600
+$Comp
+L Connector_Generic:Conn_01x06 J6
+U 1 1 5CC86679
+P 9900 1500
+F 0 "J6" H 9980 1492 50  0000 L CNN
+F 1 "Conn_01x06" H 9980 1401 50  0000 L CNN
+F 2 "GiraffeTech_Terminal:DINKLE_5EHDVC-6P" H 9900 1500 50  0001 C CNN
+F 3 "~" H 9900 1500 50  0001 C CNN
+	1    9900 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5CC8667F
+P 9500 1600
+F 0 "#PWR0109" H 9500 1350 50  0001 C CNN
+F 1 "GND" V 9505 1472 50  0000 R CNN
+F 2 "" H 9500 1600 50  0001 C CNN
+F 3 "" H 9500 1600 50  0001 C CNN
+	1    9500 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9500 1600 9600 1600
+Wire Wire Line
+	9700 1500 9600 1500
+Wire Wire Line
+	9600 1500 9600 1600
+Connection ~ 9600 1600
+Wire Wire Line
+	9600 1600 9700 1600
+$Comp
+L power:VCC #PWR0110
+U 1 1 5CC8668A
+P 9500 1400
+F 0 "#PWR0110" H 9500 1250 50  0001 C CNN
+F 1 "VCC" V 9518 1527 50  0000 L CNN
+F 2 "" H 9500 1400 50  0001 C CNN
+F 3 "" H 9500 1400 50  0001 C CNN
+	1    9500 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 1400 9600 1400
+Wire Wire Line
+	9700 1300 9600 1300
+Wire Wire Line
+	9600 1300 9600 1400
+Connection ~ 9600 1400
+Wire Wire Line
+	9600 1400 9700 1400
+$Comp
+L Connector_Generic:Conn_01x06 J7
+U 1 1 5CC8815F
+P 9900 2700
+F 0 "J7" H 9980 2692 50  0000 L CNN
+F 1 "Conn_01x06" H 9980 2601 50  0000 L CNN
+F 2 "GiraffeTech_Terminal:DINKLE_5EHDVC-6P" H 9900 2700 50  0001 C CNN
+F 3 "~" H 9900 2700 50  0001 C CNN
+	1    9900 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5CC88165
+P 9500 2800
+F 0 "#PWR0111" H 9500 2550 50  0001 C CNN
+F 1 "GND" V 9505 2672 50  0000 R CNN
+F 2 "" H 9500 2800 50  0001 C CNN
+F 3 "" H 9500 2800 50  0001 C CNN
+	1    9500 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9500 2800 9600 2800
+Wire Wire Line
+	9700 2700 9600 2700
+Wire Wire Line
+	9600 2700 9600 2800
+Connection ~ 9600 2800
+Wire Wire Line
+	9600 2800 9700 2800
+$Comp
+L power:VCC #PWR0112
+U 1 1 5CC88170
+P 9500 2600
+F 0 "#PWR0112" H 9500 2450 50  0001 C CNN
+F 1 "VCC" V 9518 2727 50  0000 L CNN
+F 2 "" H 9500 2600 50  0001 C CNN
+F 3 "" H 9500 2600 50  0001 C CNN
+	1    9500 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 2600 9600 2600
+Wire Wire Line
+	9700 2500 9600 2500
+Wire Wire Line
+	9600 2500 9600 2600
+Connection ~ 9600 2600
+Wire Wire Line
+	9600 2600 9700 2600
+$Comp
+L Connector_Generic:Conn_01x06 J4
+U 1 1 5CC8C223
+P 7950 3900
+F 0 "J4" H 8030 3892 50  0000 L CNN
+F 1 "Conn_01x06" H 8030 3801 50  0000 L CNN
+F 2 "GiraffeTech_Terminal:DINKLE_5EHDVC-6P" H 7950 3900 50  0001 C CNN
+F 3 "~" H 7950 3900 50  0001 C CNN
+	1    7950 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5CC8C229
+P 7550 4000
+F 0 "#PWR0113" H 7550 3750 50  0001 C CNN
+F 1 "GND" V 7555 3872 50  0000 R CNN
+F 2 "" H 7550 4000 50  0001 C CNN
+F 3 "" H 7550 4000 50  0001 C CNN
+	1    7550 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7550 4000 7650 4000
+Wire Wire Line
+	7750 3900 7650 3900
+Wire Wire Line
+	7650 3900 7650 4000
+Connection ~ 7650 4000
+Wire Wire Line
+	7650 4000 7750 4000
+$Comp
+L power:VCC #PWR0114
+U 1 1 5CC8C234
+P 7550 3800
+F 0 "#PWR0114" H 7550 3650 50  0001 C CNN
+F 1 "VCC" V 7568 3927 50  0000 L CNN
+F 2 "" H 7550 3800 50  0001 C CNN
+F 3 "" H 7550 3800 50  0001 C CNN
+	1    7550 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 3800 7650 3800
+Wire Wire Line
+	7750 3700 7650 3700
+Wire Wire Line
+	7650 3700 7650 3800
+Connection ~ 7650 3800
+Wire Wire Line
+	7650 3800 7750 3800
+$Comp
+L Connector_Generic:Conn_01x06 J8
+U 1 1 5CC93799
+P 9900 3900
+F 0 "J8" H 9980 3892 50  0000 L CNN
+F 1 "Conn_01x06" H 9980 3801 50  0000 L CNN
+F 2 "GiraffeTech_Terminal:DINKLE_5EHDVC-6P" H 9900 3900 50  0001 C CNN
+F 3 "~" H 9900 3900 50  0001 C CNN
+	1    9900 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5CC9379F
+P 9500 4000
+F 0 "#PWR0115" H 9500 3750 50  0001 C CNN
+F 1 "GND" V 9505 3872 50  0000 R CNN
+F 2 "" H 9500 4000 50  0001 C CNN
+F 3 "" H 9500 4000 50  0001 C CNN
+	1    9500 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9500 4000 9600 4000
+Wire Wire Line
+	9700 3900 9600 3900
+Wire Wire Line
+	9600 3900 9600 4000
+Connection ~ 9600 4000
+Wire Wire Line
+	9600 4000 9700 4000
+$Comp
+L power:VCC #PWR0116
+U 1 1 5CC937AA
+P 9500 3800
+F 0 "#PWR0116" H 9500 3650 50  0001 C CNN
+F 1 "VCC" V 9518 3927 50  0000 L CNN
+F 2 "" H 9500 3800 50  0001 C CNN
+F 3 "" H 9500 3800 50  0001 C CNN
+	1    9500 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 3800 9600 3800
+Wire Wire Line
+	9700 3700 9600 3700
+Wire Wire Line
+	9600 3700 9600 3800
+Connection ~ 9600 3800
+Wire Wire Line
+	9600 3800 9700 3800
+$Comp
+L Connector_Generic:Conn_01x06 J9
+U 1 1 5CCA2DBB
+P 9900 5100
+F 0 "J9" H 9980 5092 50  0000 L CNN
+F 1 "Conn_01x06" H 9980 5001 50  0000 L CNN
+F 2 "GiraffeTech_Terminal:DINKLE_5EHDVC-6P" H 9900 5100 50  0001 C CNN
+F 3 "~" H 9900 5100 50  0001 C CNN
+	1    9900 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 5CCA2DC1
+P 9500 5200
+F 0 "#PWR0117" H 9500 4950 50  0001 C CNN
+F 1 "GND" V 9505 5072 50  0000 R CNN
+F 2 "" H 9500 5200 50  0001 C CNN
+F 3 "" H 9500 5200 50  0001 C CNN
+	1    9500 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9500 5200 9600 5200
+Wire Wire Line
+	9700 5100 9600 5100
+Wire Wire Line
+	9600 5100 9600 5200
+Connection ~ 9600 5200
+Wire Wire Line
+	9600 5200 9700 5200
+$Comp
+L power:VCC #PWR0118
+U 1 1 5CCA2DCC
+P 9500 5000
+F 0 "#PWR0118" H 9500 4850 50  0001 C CNN
+F 1 "VCC" V 9518 5127 50  0000 L CNN
+F 2 "" H 9500 5000 50  0001 C CNN
+F 3 "" H 9500 5000 50  0001 C CNN
+	1    9500 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 5000 9600 5000
+Wire Wire Line
+	9700 4900 9600 4900
+Wire Wire Line
+	9600 4900 9600 5000
+Connection ~ 9600 5000
+Wire Wire Line
+	9600 5000 9700 5000
+$Comp
+L Connector_Generic:Conn_01x06 J5
+U 1 1 5CCAC947
+P 7950 5100
+F 0 "J5" H 8030 5092 50  0000 L CNN
+F 1 "Conn_01x06" H 8030 5001 50  0000 L CNN
+F 2 "GiraffeTech_Terminal:DINKLE_5EHDVC-6P" H 7950 5100 50  0001 C CNN
+F 3 "~" H 7950 5100 50  0001 C CNN
+	1    7950 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 5CCAC94D
+P 7550 5200
+F 0 "#PWR0119" H 7550 4950 50  0001 C CNN
+F 1 "GND" V 7555 5072 50  0000 R CNN
+F 2 "" H 7550 5200 50  0001 C CNN
+F 3 "" H 7550 5200 50  0001 C CNN
+	1    7550 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7550 5200 7650 5200
+Wire Wire Line
+	7750 5100 7650 5100
+Wire Wire Line
+	7650 5100 7650 5200
+Connection ~ 7650 5200
+Wire Wire Line
+	7650 5200 7750 5200
+$Comp
+L power:VCC #PWR0120
+U 1 1 5CCAC958
+P 7550 5000
+F 0 "#PWR0120" H 7550 4850 50  0001 C CNN
+F 1 "VCC" V 7568 5127 50  0000 L CNN
+F 2 "" H 7550 5000 50  0001 C CNN
+F 3 "" H 7550 5000 50  0001 C CNN
+	1    7550 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 5000 7650 5000
+Wire Wire Line
+	7750 4900 7650 4900
+Wire Wire Line
+	7650 4900 7650 5000
+Connection ~ 7650 5000
+Wire Wire Line
+	7650 5000 7750 5000
+Wire Wire Line
+	7550 1700 7750 1700
+Wire Wire Line
+	7550 1800 7750 1800
+Wire Wire Line
+	7550 2900 7750 2900
+Wire Wire Line
+	7550 3000 7750 3000
+Wire Wire Line
+	7550 4100 7750 4100
+Wire Wire Line
+	7550 4200 7750 4200
+Wire Wire Line
+	7550 5300 7750 5300
+Wire Wire Line
+	7550 5400 7750 5400
+Wire Wire Line
+	9500 1700 9700 1700
+Wire Wire Line
+	9500 1800 9700 1800
+Wire Wire Line
+	9500 2900 9700 2900
+Wire Wire Line
+	9500 3000 9700 3000
+Wire Wire Line
+	9500 4100 9700 4100
+Wire Wire Line
+	9500 4200 9700 4200
+Wire Wire Line
+	9500 5300 9700 5300
+Wire Wire Line
+	9500 5400 9700 5400
+Text Notes 9750 1000 2    100  ~ 0
+RGB LED strip connector
+Text Notes 4700 1000 2    100  ~ 0
+Raspberry Pi connector
+$Comp
+L Connector_Generic:Conn_01x04 J10
+U 1 1 5CD2B8DB
+P 3750 5600
+F 0 "J10" H 3830 5592 50  0000 L CNN
+F 1 "Conn_01x04" H 3830 5501 50  0000 L CNN
+F 2 "GiraffeTech_Terminal:DINKLE_DT-55-B01W-04" H 3750 5600 50  0001 C CNN
+F 3 "~" H 3750 5600 50  0001 C CNN
+	1    3750 5600
+	1    0    0    -1  
+$EndComp
+Text Notes 4600 5000 2    100  ~ 0
+Power Input connector
+$Comp
+L power:VCC #PWR0121
+U 1 1 5CD2BC13
+P 3350 5400
+F 0 "#PWR0121" H 3350 5250 50  0001 C CNN
+F 1 "VCC" H 3367 5573 50  0000 C CNN
+F 2 "" H 3350 5400 50  0001 C CNN
+F 3 "" H 3350 5400 50  0001 C CNN
+	1    3350 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 5500 3550 5500
+$Comp
+L power:GND #PWR0122
+U 1 1 5CD31351
+P 3350 5900
+F 0 "#PWR0122" H 3350 5650 50  0001 C CNN
+F 1 "GND" H 3355 5727 50  0000 C CNN
+F 2 "" H 3350 5900 50  0001 C CNN
+F 3 "" H 3350 5900 50  0001 C CNN
+	1    3350 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 5900 3350 5800
+Wire Wire Line
+	3350 5700 3550 5700
+Wire Wire Line
+	3350 5800 3550 5800
+Connection ~ 3350 5800
+Wire Wire Line
+	3350 5800 3350 5700
+Wire Wire Line
+	3350 5400 3350 5500
+Wire Wire Line
+	3550 5600 3350 5600
+Wire Wire Line
+	3350 5600 3350 5500
+Connection ~ 3350 5500
+$EndSCHEMATC
